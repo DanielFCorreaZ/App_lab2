@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calculadora !!</string>
+    <string name="box0">Suma</string>
+    <string name="box1">Resta</string>
+    <string name="box2">Producto</string>
+    <string name="box3">Division</string>
+
+    <string name="to">Operando1</string>
+    <string name="subject">Operando2</string>
+    <string name="message">Resultado</string>
+    <string name="send">Calcular</string>
+</resources>

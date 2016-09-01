@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+
+
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:hint="@string/message"
+        android:textColorHint="@color/black"
+        android:id="@+id/eMessage"
+        android:textSize="25sp"
+        android:textColor="@color/darkcyan"
+        android:inputType="number"
+        android:gravity="top"
+        />
+    </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="0.5">
+
+         <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="0.7"
+             android:orientation="vertical"
+             >
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/radioGr">
+
+             <RadioButton
+                 android:layout_width="wrap_content"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:text="@string/box0"
+                 android:textSize="20sp"
+                 android:textColor="@color/darkcyan"
+                 android:onClick="onRadioButtonClicked"
+                 android:id="@+id/radio0" />
+             <RadioButton
+                 android:layout_width="wrap_content"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:textColor="@color/darkcyan"
+                 android:textSize="20sp"
+                 android:text="@string/box1"
+                 android:onClick="onRadioButtonClicked"
+                 android:id="@+id/radio1" />
+             <RadioButton
+                 android:layout_width="wrap_content"
+                 android:layout_height="0dp"
+                 android:textSize="20sp"
+                 android:textColor="@color/darkcyan"
+                 android:layout_weight="1"
+                 android:text="@string/box2"
+                 android:onClick="onRadioButtonClicked"
+
+                 android:id="@+id/radio2" />
+             <RadioButton
+                 android:layout_width="wrap_content"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:textSize="20sp"
+                 android:textColor="@color/darkcyan"
+                 android:text="@string/box3"
+                 android:onClick="onRadioButtonClicked"
+                 android:id="@+id/radio3" />
+
+        </RadioGroup>
+
+
+
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="0.3"
+             android:orientation="vertical">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:layout_gravity="center"
+        android:background="@color/darkcyan"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:id="@+id/bSend"/>
+
+
+         </LinearLayout>
+</LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned|number"
+        android:hint="@string/to"
+        android:textColor="@color/darkcyan"
+        android:textColorHint="@color/black"
+        android:id="@+id/eTo"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkcyan"
+        android:inputType="numberDecimal|numberSigned|number"
+        android:hint="@string/subject"
+        android:textColorHint="@color/black"
+        android:id="@+id/eSubject"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned|number"
+        android:hint="@string/lado"
+        android:textColor="@color/darkcyan"
+        android:textColorHint="@color/black"
+        android:id="@+id/elado"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned|number"
+        android:hint="@string/radio"
+        android:textColor="@color/darkcyan"
+        android:textColorHint="@color/black"
+        android:id="@+id/eradio"
+        android:textSize="30sp"
+        />
+    </LinearLayout>

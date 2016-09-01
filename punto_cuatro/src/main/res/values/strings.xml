@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="box0">Hombre</string>
+    <string name="box1">Mujer</string>
+    <string name="spinner">Ciudad:</string>
+
+    <string name="to">Password</string>
+    <string name="subject">Password again</string>
+    <string name="lado">Correo Electronico</string>
+    <string name="hobbis">Hobbies</string>
+    <string name="message">Loggin</string>
+    <string name="send">Registrar</string>
+    <string name="deporte">Deporte</string>
+    <string name="lectura">Lectrura</string>
+    <string name="arte">Arte</string>
+    <string name="games">VideoJuegos</string>
+
+</resources>
